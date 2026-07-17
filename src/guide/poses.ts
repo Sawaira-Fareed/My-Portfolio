@@ -5,6 +5,8 @@ import presenting from '../assets/guide/guide-presenting.png'
 import sittingLaptop from '../assets/guide/guide-sitting-laptop.png'
 import walking from '../assets/guide/guide-walking.png'
 import walkingCoffee from '../assets/guide/guide-walking-coffee.png'
+import confident from '../assets/guide/guide-confident.png'
+import showingCode from '../assets/guide/guide-showing-code.png'
 
 export type GuidePose =
   | 'idle'
@@ -14,6 +16,8 @@ export type GuidePose =
   | 'sittingLaptop'
   | 'walking'
   | 'walkingCoffee'
+  | 'confident'
+  | 'showingCode'
 
 export const poseImages: Record<GuidePose, string> = {
   idle,
@@ -23,4 +27,6 @@ export const poseImages: Record<GuidePose, string> = {
   sittingLaptop,
   walking,
   walkingCoffee,
+  confident,
+  showingCode,
 }

@@ -1,4 +1,4 @@
-import GuideCharacter from '../guide/GuideCharacter'
+import ScrollLinkedGuide from '../guide/ScrollLinkedGuide'
 
 export default function Hero() {
   const scrollToNext = () => {
@@ -6,8 +6,7 @@ export default function Hero() {
   }
 
   return (
-    <section className="relative min-h-screen flex flex-col items-center justify-center px-6 overflow-hidden">
-      {/* Ambient glow layers, consistent with the Midnight Rose mood established earlier */}
+    <section id="hero" className="relative min-h-screen flex flex-col items-center justify-center px-6 overflow-hidden">
       <div
         className="pointer-events-none absolute inset-0"
         style={{
@@ -47,10 +46,10 @@ export default function Hero() {
         </button>
       </div>
 
-      {/* Guide's first appearance — idle pose, waiting to be noticed rather than
-          demanding attention immediately */}
+      {/* Scroll-linked: idle -> confident as you scroll through Hero, with a
+          gentle parallax drift instead of sitting perfectly static */}
       <div className="relative z-10 mt-4">
-        <GuideCharacter pose="idle" />
+        <ScrollLinkedGuide containerSelector="#hero" fromPose="idle" toPose="confident" />
       </div>
     </section>
   )

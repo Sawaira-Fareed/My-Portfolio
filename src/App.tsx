@@ -1,6 +1,9 @@
 import Hero from './sections/Hero'
-import Projects from './sections/Projects'
+import About from './sections/About'
 import TechStack from './sections/TechStack'
+import Projects from './sections/Projects'
+import Experience from './sections/Experience'
+import Contact from './sections/Contact'
 import SplashCursor from './components/effects/SplashCursor'
 
 function App() {
@@ -8,11 +11,11 @@ function App() {
     <div className="min-h-screen bg-midnight-black">
       <SplashCursor />
       <Hero />
-      <div id="about">
-        {/* About section goes here next */}
-      </div>
+      <About />
       <TechStack />
       <Projects />
+      <Experience />
+      <Contact />
     </div>
   )
 }
