@@ -24,7 +24,7 @@ export const projects: Project[] = [
     tagline: 'University society event management, from proposal to budget close-out',
     category: 'Desktop Application',
     era: '2025',
-    image: '/src/assets/projects/planora.png',
+    image: '/assets/projects/planora.png',
     techStack: ['Java', 'JavaFX', 'SQL Server', 'JDBC', 'Maven'],
     githubUrl: 'https://github.com/Sawaira-Fareed/Planora',
     problem:
@@ -45,7 +45,7 @@ export const projects: Project[] = [
     tagline: 'An operations platform coordinating emergency response teams in real time',
     category: 'Web Application',
     era: '2025',
-    image: '/src/assets/projects/disaster-response.png',
+    image: '/assets/projects/disaster-response.png',
     techStack: ['ASP.NET Web Forms', 'C#', 'SQL Server', 'Chart.js', 'Bootstrap 5'],
     githubUrl: 'https://github.com/Sawaira-Fareed/Smart-Disaster-Response-MIS',
     problem:
@@ -66,7 +66,7 @@ export const projects: Project[] = [
     tagline: 'A dark-academia digital sanctuary for world folklore and oral tradition',
     category: 'Web Application',
     era: '2025 – ongoing',
-    image: '/src/assets/projects/mystical-archive.png',
+    image: '/assets/projects/mystical-archive.png',
     techStack: ['HTML5', 'CSS3', 'JavaScript (ES6)', 'Figma'],
     githubUrl: 'https://github.com/Sawaira-Fareed/The-Mystical-Archive',
     liveUrl: 'https://sawaira-fareed.github.io/The-Mystical-Archive/',
@@ -88,7 +88,7 @@ export const projects: Project[] = [
     tagline: 'A complete 3-level arcade game built from scratch in MASM Assembly',
     category: 'Systems Programming',
     era: '2024',
-    image: '/src/assets/projects/brick-breaker.png',
+    image: '/assets/projects/brick-breaker.png',
     techStack: ['x86 Assembly (MASM)', 'DOSBox', 'VGA Mode 13h'],
     githubUrl: 'https://github.com/Sawaira-Fareed/Brick-Breaker-in-MASM-Assembly',
     problem:
@@ -109,7 +109,7 @@ export const projects: Project[] = [
     tagline: 'A multithreaded traffic and parking simulator with real IPC-based coordination',
     category: 'Systems Programming',
     era: '2025',
-    image: '/src/assets/projects/traffic-simulation.png',
+    image: '/assets/projects/traffic-simulation.png',
     techStack: ['C', 'POSIX Threads', 'IPC (Pipes)', 'Semaphores'],
     githubUrl: 'https://github.com/Sawaira-Fareed/Traffic-Sync',
     problem:
@@ -130,7 +130,7 @@ export const projects: Project[] = [
     tagline: 'An AI-powered local service marketplace — describe what you need in Urdu or English, Zaria finds and books a provider',
     category: 'Web Application',
     era: '2026 · In Progress',
-    image: '/src/assets/projects/zaria.png',
+    image: '/assets/projects/zaria.png',
     techStack: ['React 19', 'Supabase', 'Zustand', 'Gemini API'],
     githubUrl: 'https://github.com/Sawaira-Fareed/TaskMate', // repo currently still named TaskMate, will be renamed
     liveUrl: 'https://zaria-pk.vercel.app/',
@@ -151,7 +151,7 @@ export const projects: Project[] = [
     tagline: 'A graph-based route optimization engine for modeling efficient shipping lanes',
     category: 'Systems / Algorithms',
     era: '2024',
-    image: '/src/assets/projects/ship-route.png',
+    image: '/assets/projects/ship-route.png',
     techStack: ['C++', 'SFML', 'Graph Algorithms'],
     // No public repo for this one — coursework project, not currently pushed to GitHub.
     problem:
