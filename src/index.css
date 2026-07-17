@@ -1,1 +1,21 @@
 @import "tailwindcss";
+
+@theme {
+  --color-midnight-black: #0a0609;
+  --color-midnight-charcoal: #1a1015;
+  --color-rose-deep: #7c3a6f;
+  --color-rose-primary: #d6407e;
+  --color-rose-light: #f2c9d8;
+  --color-rose-glow: #e8a9c4;
+}
+
+@keyframes modal-slide-in {
+  from {
+    opacity: 0;
+    transform: scale(0.97) translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}

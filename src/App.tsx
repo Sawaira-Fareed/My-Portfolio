@@ -1,12 +1,13 @@
-
+import Projects from './sections/Projects'
+import SplashCursor from './components/effects/SplashCursor'
 
 function App() {
   return (
-    <div className="min-h-screen bg-black flex items-center justify-center">
-      <h1 className="text-4xl font-bold text-pink-400">Midnight Rose</h1>
+    <div className="min-h-screen bg-midnight-black">
+      <SplashCursor />
+      <Projects />
     </div>
   )
 }
-
 
 export default App
